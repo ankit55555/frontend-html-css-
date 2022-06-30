@@ -1,0 +1,55 @@
+main{
+ 
+  display: grid;
+  place-content: center;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+li{
+  border-radius: 0.8em;
+  border: 1px solid black;
+}
+a:hover{
+  background-color: black;
+  color: white;
+  background-color:rgba(14, 5, 66, 0.8)8;
+}
+a{
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.8em;
+  transition:  300ms ease ;
+
+
+}
+table{
+  text-align: center;
+}
+
+td, th{
+  outline: 1px solid black;
+  padding: 1em 2em;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.form-element{
+  display: grid;
+  gap: 0.5em
+}
+input, button[type="submit"]{
+  padding: 1em;
+  cursor: pointer;
+}
+.navbar
+{
+  text-align: center;
+}
