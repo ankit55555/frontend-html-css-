@@ -1,35 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-<div class="qr-code"> 
-  <div class="card">
+    <title>Frontend Mentor | QR code component</title>
 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        background-color: rgb(240, 255, 254);
+      }
+      .qr-code {
+        position: relative;
+        margin: 0 auto;
+      }
+      .card-main {
+        background-color: white;
+        text-align: center;
+        max-height: 663px;
 
+        width: 336px;
+        position: absolute;
+      
+        border-radius: 15px;
 
+        left: 700px;
+         top: 100px;
+      }
 
-  </div>
-</div>
-  Improve your front-end skills by building projects
+      img {
+        max-width: 300px;
+        max-height: 300px;
+        border-radius: 30px;
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        padding: 15px;
+      }
+
+      .title {
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .sub-title {
+        padding: 30px;
+        font-weight: 200;
+      }
+
+      @media screen and (max-width: 480px) {
+        .card-main {
+          position: initial;
+          margin: 40px!important;
+         
+      }
+
+    }
+      @media screen and (max-width: 768px) {
+        .card-main {
+          position: initial;
+          margin: 0 200px;
+
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .card-main {
+          position: initial;
+          margin: 50px 325px;
+
+      }
+    }
+     
+
+    </style>
+  </head>
+  <body>
+    <div class="qr-code">
+      <div class="card-main">
+        <div class="card-img">
+          <img src="./images/image-qr-code.png" alt="qr-code" />
+        </div>
+        <div class="title">
+          Improve your front-end skills by building projects
+        </div>
+        <div class="sub-title">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
