@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This title</title>
+</head>
+<body>
+    <button>hiii</button>
+    <br>
+<script>
+    let date=27;
+    let month= 'november';
+    let year=2200;
+
+    let arr=['one','two','three']
+
+    arr.push('another todo');
+    
+    arr.forEach(function(ankit){
+        let element =document.createElement('div');
+        element.innerText=ankit;
+        document.body.appendChild(element);
+    });
+   
+
+
+
+<button id="todo-button" onclick="changeToDone()">To do</button>
+
+  function changeToDone() {
+    let button = document.getElementById('todo-button');
+    button.innerText = 'Done';
+  }
+
+    
+   
+  
+   
+
+
+
+    
+
+    
+</script>
+</body>
+</html>
