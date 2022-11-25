@@ -25,9 +25,29 @@
         let res=[];
             
         strArr2.forEach(function(double){
-            
+            res.push(double);
+            res.push(double);
         });
+        console.log(res);
+
       }
+
+      arrayDouble(["hello", "world"]);
+
+
+      function arraySum(sumNum){
+        let total=0;
+
+        sumNum.forEach(function(num){
+            total=total+num;    
+        });
+
+        console.log(total)
+
+
+      }
+      
+      arraySum([1,5,6])
     </script>
   </body>
 </html>
