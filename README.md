@@ -1,0 +1,1 @@
+This repository contains multiple projects that I have developed. Each project has its own folder and README file with detailed information on its purpose, features, usage, and instructions for installation and setup.
