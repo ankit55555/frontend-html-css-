@@ -11,10 +11,10 @@ body {
   font-family: sans-serif;
 }
 
-.blurred {
+/* .blurred {
   filter: blur(3px);
   overflow: hidden;
-}
+} */
 
 .header {
   display: flex;
